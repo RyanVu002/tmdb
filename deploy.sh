@@ -20,6 +20,6 @@ git commit -m "deploy (commit: $COMMIT)"
 
 # if you are using HTTPS/2FA authentication
 # git push -f https://github.com/<USER-NAME>/<REPO>.git master:gh-pages
-git push -f https://github.com/RyanVu002/tmdb.git master:gh-pages
+git push -f https://github.com/RyanVu002/tmdb.git main:gh-pages
 
 cd ..
