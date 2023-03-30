@@ -6,7 +6,7 @@ LOGSTRING=$(git log)
 COMMIT=$(echo $LOGSTRING | awk '{print $2}')
 
 # navigate into the build output directory
-cd dist
+cd build
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
